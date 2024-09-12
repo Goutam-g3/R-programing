@@ -1,0 +1,30 @@
+a=5
+b=3
+a/b
+a%%b
+a%/%b
+
+
+
+{
+  a=5
+  b=6
+  cat(a<b,"\n",a>b,"\n",a=b,"\n",a!=b,"\n",a>=b,"\n",a<=b,"\n",file="demo.txt")
+} 
+
+
+cat(5<4,file="demo2.txt",append=TRUE,"\n")
+cat(5>4,file="demo2.txt",append=TRUE,"\n")
+
+
+getwd()
+
+
+{
+  s1=readline("Enter the first string : ")
+  s2=readline("Enter the secound string : ")
+  output=(s1==s2)
+  output
+} 
+
+
